@@ -2,12 +2,13 @@ print(f'{"*** Programmed by ***": ^40}')
 print(f'{"*** Nicolas Fabillar ***": ^40}')
 
 options = {
-       'A':['    *    ','   * *   ','  *****  ',' *     * ','*       *'],
-       'D':['*****  ','*    * ','*     *','*    * ','*****  '],
-       'N':['*   *','**  *','* * *','*  **','*   *'],
-        }
+    'C':[' ***** ','*     *','*      ','*     *',' ***** '],
+    'I':['*******','   *   ','   *   ','   *   ','*******'],
+    'N':['**    *','* **  *','*  ** *','*   ***','*    **'],
+    'O':[' ***** ','*     *','*     *','*     *',' ***** '],
+    '♥':[' ** ** ','*******',' ***** ','  ***  ','   *   '],}
 
-Name = "DAN"
+Name = "NICO♥"
 # Number of Rows required to print the name:
 for row in range(5):
     # The position of letter, is it 1st or second?
@@ -17,5 +18,3 @@ for row in range(5):
 
     # Printing the stars per row.
     print()
-
-
